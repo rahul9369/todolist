@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8a33eecc9b.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="today">
+          <div
+            class="high"
+            id="date"
+            style="font-weight: bolder; padding-right: 20px">
+            TODAY
+          </div>
+          <p class="parag" style="line-height: 1px; margin-left: 10px">
+            what to do , what to do
+          </p>
+        </div>
+        <div class="btn">
+          <a class="button"> <i class="fa-solid fa-kiwi-bird"></i>Log In </a>
+        </div>
+      </div>
+
+      <ul>
+        <li>This is a concise Todolist.</li>
+        <li>
+          <span style="color: red">5</span> important tasks that must be
+          completed every day.
+        </li>
+        <li
+          style="
+            text-decoration: line-through;
+            text-decoration-thickness: 0.1rem;
+            color: grey;
+          ">
+          This is a completed transaction
+        </li>
+        <li>
+          <span style="color: blue">Let</span>'s create today's first task⇩
+        </li>
+        <li class="inp">
+          <input
+            type="text"
+            placeholder="                  +                   "
+            class="text" />
+        </li>
+      </ul>
+
+      <div class="nav">
+        <h3 class="yest" id="p" style="margin: 0px">
+          <i
+            class="fa-solid fa-caret-right fa-rotate-180"
+            style="color: #d2d7e0"></i
+          ><span>YESTERDAY</span>
+        </h3>
+        <div class="mid">
+          <span style="color: gray; font-size: 10px">©2023 TO.DAY.DO [</span>
+          <span class="para">Xiong Bao</span>
+          <span style="color: gray; font-size: 10px"
+            >] All rights reserved.</span
+          >
+        </div>
+        <h3 class="come" id="n">
+          <span class="sp2">UPCOMING</span
+          ><i class="fa-solid fa-caret-right" style="color: #cbced2"></i>
+        </h3>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

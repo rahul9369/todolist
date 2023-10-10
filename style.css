@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+}
+body {
+  margin: 30px;
+}
+.container {
+  width: 8ovw;
+  margin: 20px auto;
+}
+.header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  margin-top: 10px;
+}
+
+.high {
+  font-size: 5rem;
+}
+
+li {
+  color: rgb(33, 30, 30);
+
+  list-style: none;
+  margin: 10px 0px;
+  padding: 20px;
+  font-size: 4rem;
+  font-weight: 400;
+  border: 1px solid rgb(198, 198, 198);
+}
+
+.nav {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inp {
+  border: none;
+  padding: 0;
+}
+
+.inp:hover {
+  background-color: white;
+}
+
+input {
+  height: 100%;
+  width: 99.1%;
+  border: 1px solid gray;
+  font-size: 4rem;
+  padding: 5px;
+}
+.button {
+  border: 1px solid grey;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 10px;
+  color: grey;
+}
+.button:hover {
+  background-color: aqua;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgb(244, 244, 244);
+}
+input:hover {
+  background-color: rgb(244, 244, 244);
+}
+.yest:hover {
+  color: rgb(147, 159, 248);
+  cursor: pointer;
+}
+.come:hover {
+  color: rgb(147, 159, 248);
+  cursor: pointer;
+}
+.para:hover {
+  color: rgb(147, 159, 248);
+  cursor: pointer;
+}
+.high {
+  color: blueviolet;
+}
+@media (max-width: 990px) {
+  li {
+    font-size: 3rem;
+  }
+  .text {
+    font-size: 3rem;
+  }
+  .high {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 680px) {
+  .mid {
+    display: none;
+  }
+}
+@media (max-width: 875px) {
+  li {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 727px) {
+  li {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 624px) {
+  li {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 582px) {
+  li {
+    font-size: 1.3rem;
+  }
+  .text {
+    font-size: 1.3rem;
+  }
+  .high {
+    font-size: 2rem;
+  }
+  .parag {
+    display: none;
+  }
+  .come {
+    font-size: 1rem;
+  }
+  .yest {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 495px) {
+  li {
+    font-size: 1rem;
+  }
+  .high {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 380px) {
+  li {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+  .high {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
+}
